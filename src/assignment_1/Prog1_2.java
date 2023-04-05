@@ -1,6 +1,6 @@
-package prog1_2;
+package assignment_1;
 
-public class Main {
+public class Prog1_2 {
     public static void main(String[] args) {
         String expr="Hi \uD83D\uDC4B, my name is \u09AE\u0988\u09A8\u09C1\u09B2";
         System.out.println(expr);

@@ -1,9 +1,11 @@
-package prog_3;
-import java.util.*;
-public class RandomNumbers {
+package assignment_1;
+
+import java.util.Random;
+
+public class Prog_3 {
     static Random random;
 
-    private RandomNumbers() {
+    private Prog_3() {
         random = new Random();
     }
 
@@ -13,7 +15,7 @@ public class RandomNumbers {
      *     int myInt = RandomNumbers.getRandomInt();
      */
     public static int getRandomInt() {
-        if(random == null) new RandomNumbers();
+        if(random == null) new Prog_3();
         return random.nextInt();
     }
     /**
@@ -44,7 +46,7 @@ public class RandomNumbers {
         System.out.println("Long: "+Long.MAX_VALUE+" "+Long.MIN_VALUE );
         System.out.println("----------------------------------------------");
         //2000000000
-        RandomNumbers rn = new RandomNumbers();
+        Prog_3 rn = new Prog_3();
         long randomNumber=rn.getRandomInt(0, 2000000000);
         System.out.println("Generated Random Number: "+randomNumber);
 
