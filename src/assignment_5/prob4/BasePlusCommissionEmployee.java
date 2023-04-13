@@ -1,4 +1,4 @@
-package assignment5.prob4;
+package assignment_5.prob4;
 
 public class BasePlusCommissionEmployee extends CommisionEmployee{
     public double baseSalary;

@@ -1,4 +1,4 @@
-package assignment5.prob1;
+package assignment_5.prob1;
 
 public class Square extends Rectangle{
     Square(String color,double side){

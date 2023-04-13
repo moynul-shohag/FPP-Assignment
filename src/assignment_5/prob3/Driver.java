@@ -1,4 +1,4 @@
-package assignment5.prob3;
+package assignment_5.prob3;
 
 public class Driver {
     public static void main(String[]args){

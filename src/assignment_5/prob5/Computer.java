@@ -1,6 +1,4 @@
-package assignment5.prob5;
-
-import java.util.Objects;
+package assignment_5.prob5;
 
 public class Computer {
     private String manufacturer;

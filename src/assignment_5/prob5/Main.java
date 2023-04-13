@@ -1,4 +1,4 @@
-package assignment5.prob5;
+package assignment_5.prob5;
 
 public class Main {
     public static void main(String [] args)

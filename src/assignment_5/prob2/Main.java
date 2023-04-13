@@ -1,4 +1,4 @@
-package assignment5.prob2;
+package assignment_5.prob2;
 import java.time.LocalDate;
 import java.util.Scanner;
 
